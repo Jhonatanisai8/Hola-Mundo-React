@@ -1,16 +1,16 @@
 export function App() {
     return (
-        <article>
-            <header>
-                <img src="https://unavatar.io/ferrari" alt="Ferrari" />
-                <div>
+        <article className="tw-followCard">
+            <header className="tw-followCard-header">
+                <img className="tw-followCard-avatar" src="https://unavatar.io/ferrari" alt="Ferrari" />
+                <div className="tw-followCard-info">
                     <strong>Jhoonatan Isai</strong>
-                    <span>@JhonatanIsai</span>
+                    <span className="tw-followCard-infoUserName">@JhonatanIsai</span>
                 </div>
             </header>
 
             <aside>
-                <button>
+                <button className="tw-followCard-button">
                     Seguir
                 </button>
             </aside>
