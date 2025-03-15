@@ -1,7 +1,19 @@
 export function App() {
     return (
-        <div>
-            <h1>Twitter Card</h1>
-        </div>
+        <article>
+            <header>
+                <img src="https://unavatar.io/ferrari" alt="Ferrari" />
+                <div>
+                    <strong>Jhoonatan Isai</strong>
+                    <span>@JhonatanIsai</span>
+                </div>
+            </header>
+
+            <aside>
+                <button>
+                    Seguir
+                </button>
+            </aside>
+        </article>
     )
 }
